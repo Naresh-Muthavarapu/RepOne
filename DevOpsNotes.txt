@@ -31,10 +31,6 @@ Go to C:\NareshPersonnel  ctrl+shift context button open command window here
 java -jar jenkins.war --httpPort=9090
 url :: http://localhost:9090/
 
-Stopping jenkins 
-logout from the web page
-At command prompt ctrl+c and then exit
-
 Jenkins
 http://www.studytonight.com/jenkins/securing-jenkins   Good url to study jenkins
 http://www.vogella.com/tutorials/Jenkins/article.html
