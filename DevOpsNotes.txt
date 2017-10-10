@@ -1,0 +1,111 @@
+In jenkins while creating projects maven is one option where you need to provide pom xml
+file which manages every thing
+
+surefile  plugin of maven used to create test reports
+junit 4 supports for surefire
+testngs support sure fire finally test reports are in xml file
+which we need to mention to jenkins
+
+in jenkins we can manage the project but we will not create the project
+
+To run pom xml file go the folder where pom xml file is present and 
+cmd at explorer bar  move it enter and work on 
+
+DevOps
+Jenkins installation
+Clear if any previous installations are present
+C:\jenkins
+C:\Users\naresh.m\.jenkins    clear the .jenkins folder  then only go for new installation
+Some excel sheet having installation of jenkins is available read it 
+Download jenkins war file
+cmd---->Go to folder where jenkins present---->java -jar Jenkins.war
+By default it uses 8080 port hence make sure your tomcat is not using the port
+User name :: naresh
+Password :: naresh
+Full name :: Naresh Muthavarapu
+E mail address : naresh.muthavarapu@gmail.com
+http://localhost:8080/ default port is 8080
+
+To change port number of jenkins
+Go to C:\NareshPersonnel  ctrl+shift context button open command window here
+java -jar jenkins.war --httpPort=9090
+url :: http://localhost:9090/
+
+Stopping jenkins 
+logout from the web page
+At command prompt ctrl+c and then exit
+
+Jenkins
+http://www.studytonight.com/jenkins/securing-jenkins   Good url to study jenkins
+http://www.vogella.com/tutorials/Jenkins/article.html
+
+DevOps url's
+http://linuxcommand.org/lts0030.php
+http://linuxcommand.org/lc3_lts0060.php
+http://www.tecmint.com/10-wget-command-examples-in-linux/
+http://www.thegeekstuff.com/2010/11/50-linux-commands/?utm_source=feedburner
+https://www.mkyong.com/unittest/testng-spring-integration-example/
+
+Shell scripting
+http://www.freeos.com/guides/lsst/ch02sec02.html   Seems to be very good website
+https://www.javatpoint.com/linux-shell-commands
+https://www-xray.ast.cam.ac.uk/~jss/lecture/computing/notes/out/commands_basic/
+http://linuxcommand.org/lts0020.php
+http://linuxcommand.org/lts0080.php
+https://www.computerhope.com/unix/test.htm
+https://www.computerhope.com/unix.htm   Good website
+https://www.computerhope.com/unixtop1.htm
+http://www.freeos.com/guides/lsst/ch03sec09.html  stopped at here
+http://www.freeos.com/guides/lsst/ch03sec06.html  as on 18 July 2017
+
+GIT and GIT Hub difference
+http://stackoverflow.com/questions/11816424/understanding-the-basics-of-git-and-github
+https://www.tutorialspoint.com/git/git_basic_concepts.htm
+http://www.vogella.com/tutorials/Git/article.html
+Git repository url good one
+https://www.sbf5.com/~cduan/technical/git/git-1.shtml 
+http://www.vogella.com/tutorials/Git/article.html#gitdefintion_localrepositories
+
+Maven installation
+downloaded maven from here
+https://archive.apache.org/dist/maven/maven-3/
+https://archive.apache.org/dist/maven/maven-3/3.2.2/binaries/
+The version is 3.2.2
+
+new--->Maven project---->co.ntier
+Right click on the project and Run on server
+Group id :: com.dsrc
+Artefact Id :: gpp
+Finish
+How to convert Ant to maven get example from ganta srinu taramani candidate
+mvn test compile
+mvn test
+
+Show view--->Search for maven---->Maven repositories
+Global repositories--->right click on central 
+
+Maven....
+I want to load those files in to a project which is created in maven
+Then both project faces should be same like Servlet 2.3 or 3.0
+Other wise it will not accept jar files
+
+Requirement is to develop a project in maven
+Then you need to mention arch type and servlet facet 
+mvn........  here it self all are mentioned (Really pom.xml contents only)
+After running the command the project is created 
+and all the mentioned information is available in pom.xml
+It will be checked in to svn then developers will work on it
+arch type can not be changable at any cost and project facet 
+also can be upgradable.
+developers add the jar content to pomxml file 
+this pom xml file is given to genkins
+
+Read effective pom.xml to get more clarity which can not be editable
+maven goals are clean.....after build deltes the target folder which is called build
+verify checks the pom.xml  compile.....compile the source files and keep in target
+folder by default we can change the location of source and destination files which
+you can chage at pom.xml file
+maven goal is 'package' which creates jar or war file
+'install' moves war file to local repository folder
+
+Spring boot it self is a maven project it gives maven pom xml file
