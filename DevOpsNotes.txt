@@ -1,8 +1,5 @@
-In jenkins while creating projects maven is one option where you need to provide pom xml
-file which manages every thing
+Naresh 4.44 10 October 2017
 
-surefile  plugin of maven used to create test reports
-junit 4 supports for surefire
 testngs support sure fire finally test reports are in xml file
 which we need to mention to jenkins
 
