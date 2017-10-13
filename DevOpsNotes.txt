@@ -1,32 +1,5 @@
 Naresh Ganta Srinivas 4.55 10 October 2017
 
-testngs support sure fire finally test reports are in xml file
-which we need to mention to jenkins
-
-in jenkins we can manage the project but we will not create the project
-
-To run pom xml file go the folder where pom xml file is present and 
-cmd at explorer bar  move it enter and work on 
-
-DevOps
-Jenkins installation
-Clear if any previous installations are present
-C:\jenkins
-C:\Users\naresh.m\.jenkins    clear the .jenkins folder  then only go for new installation
-Some excel sheet having installation of jenkins is available read it 
-Download jenkins war file
-cmd---->Go to folder where jenkins present---->java -jar Jenkins.war
-By default it uses 8080 port hence make sure your tomcat is not using the port
-User name :: naresh
-Password :: naresh
-Full name :: Naresh Muthavarapu
-E mail address : naresh.muthavarapu@gmail.com
-http://localhost:8080/ default port is 8080
-
-To change port number of jenkins
-Go to C:\NareshPersonnel  ctrl+shift context button open command window here
-java -jar jenkins.war --httpPort=9090
-url :: http://localhost:9090/
 
 Jenkins
 http://www.studytonight.com/jenkins/securing-jenkins   Good url to study jenkins
