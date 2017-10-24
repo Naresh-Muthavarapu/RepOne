@@ -1,3 +1,4 @@
+Explanation to Ganta 24 Oct 2017  10.13AM
 Doing some changes for master branch which had sanjay branch
 Changes exclusive for sanjay branch
 changes done for ramesh branch
