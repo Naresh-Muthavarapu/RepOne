@@ -1,2 +1,3 @@
+Changes at room on 25 Oct 2017
 At room doing changes
 This file is used to test git clean
