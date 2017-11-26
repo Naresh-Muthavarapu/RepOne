@@ -1,5 +1,7 @@
+Changed to test commit a
 Changes at notes file on 25 Oct 2017
-Changes done for ramesh branch on 19 Oct 2017
+<<<<<<< .mineIn Sanjay branch on 27 October 2017
+=======>>>>>>> .theirsChanges done for ramesh branch on 19 Oct 2017
 558
 
 This is Naresh f
